@@ -1,31 +1,31 @@
-# client-react-webpack
+# sample-web-frameworks/react-webpack
 
-Empty project.
+This project shows an example `React` project using `Webpack` as its bundler. It includes `Tailwind CSS` for styling and `TypeScript` for type support.
 
 ## Building and running on localhost
 
 First install dependencies:
 
 ```sh
-npm install
+yarn
 ```
 
 To run in hot module reloading mode:
 
 ```sh
-npm start
-```
-
-To create a production build:
-
-```sh
-npm run build-prod
+yarn start
 ```
 
 To create a development build:
 
 ```sh
-npm run build-dev
+yarn build-dev
+```
+
+To create a production build:
+
+```sh
+yarn build-prod
 ```
 
 ## Running
@@ -37,9 +37,11 @@ Open the file `dist/index.html` in your browser
 To run unit tests:
 
 ```sh
-npm test
+yarn test
 ```
 
 ## Credits
 
 Made with [createapp.dev](https://createapp.dev/)
+
+Updated live on The Alt-F4 Stream.
