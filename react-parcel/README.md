@@ -7,19 +7,19 @@ Empty project.
 First install dependencies:
 
 ```sh
-npm install
+yarn
 ```
 
 To run in hot module reloading mode:
 
 ```sh
-npm start
+yarn start
 ```
 
 To create a production build:
 
 ```sh
-npm run build-prod
+yarn build
 ```
 
 ## Running
@@ -31,10 +31,11 @@ Open the file `dist/index.html` in your browser
 To run unit tests:
 
 ```sh
-npm test
+yarn test
 ```
 
 ## Credits
 
 Made with [createapp.dev](https://createapp.dev/)
 
+Updated live on The Alt-F4 Stream.
