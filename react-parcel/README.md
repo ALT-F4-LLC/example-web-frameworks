@@ -1,25 +1,25 @@
-# client-react
+# sample-web-frameworks/react-parcel
 
-Empty project.
+This project shows an example React project using Parcel as it's bundler. It includes `Tailwind CSS` for styling and `TypeScript` for type support.
 
 ## Building and running on localhost
 
 First install dependencies:
 
 ```sh
-npm install
+yarn
 ```
 
 To run in hot module reloading mode:
 
 ```sh
-npm start
+yarn start
 ```
 
 To create a production build:
 
 ```sh
-npm run build-prod
+yarn build
 ```
 
 ## Running
@@ -31,10 +31,11 @@ Open the file `dist/index.html` in your browser
 To run unit tests:
 
 ```sh
-npm test
+yarn test
 ```
 
 ## Credits
 
 Made with [createapp.dev](https://createapp.dev/)
 
+Updated live on The Alt-F4 Stream.
