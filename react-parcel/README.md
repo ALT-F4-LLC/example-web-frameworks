@@ -1,6 +1,6 @@
 # sample-web-frameworks/react-parcel
 
-This project shows an example React project using Parcel as it's bundler. It includes `Tailwind CSS` for styling and `TypeScript` for type support.
+This project shows an example `React` project using `Parcel` as its bundler. It includes `Tailwind CSS` for styling and `TypeScript` for type support.
 
 ## Building and running on localhost
 
