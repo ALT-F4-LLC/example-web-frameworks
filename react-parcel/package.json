@@ -1,0 +1,31 @@
+{
+  "name": "example-react-parcel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "clean": "rm dist/bundle.js",
+    "start": "parcel serve ./src/index.html",
+    "build": "parcel build ./src/index.html",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "tailwindcss": "^1.6.2"
+  },
+  "devDependencies": {
+    "@types/parcel-env": "^0.0.0",
+    "@types/react": "^16.9.44",
+    "@types/react-dom": "^16.9.8",
+    "autoprefixer": "^9.8.6",
+    "jest": "^26.2.2",
+    "parcel": "next",
+    "postcss-modules": "^3.2.0",
+    "tailwind": "^4.0.0",
+    "typescript": "^3.9.7"
+  }
+}
