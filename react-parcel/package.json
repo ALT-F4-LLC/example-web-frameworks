@@ -8,7 +8,7 @@
   "license": "ISC",
   "scripts": {
     "clean": "rm dist/bundle.js",
-    "start": "parcel serve ./src/index.html",
+    "start": "parcel serve --no-cache ./src/index.html",
     "build": "parcel build ./src/index.html",
     "test": "jest"
   },
@@ -24,6 +24,7 @@
     "autoprefixer": "^9.8.6",
     "jest": "^26.2.2",
     "parcel": "next",
+    "postcss-import": "^12.0.1",
     "postcss-modules": "^3.2.0",
     "tailwind": "^4.0.0",
     "typescript": "^3.9.7"
