@@ -1,7 +1,4 @@
 <div class="grid h-screen">
-  <app-toolbar [name]="name | async"></app-toolbar>
-  <app-dashboard
-    [name]="name | async"
-    (nameChanged)="setName($event)"
-  ></app-dashboard>
+  <app-toolbar></app-toolbar>
+  <app-dashboard></app-dashboard>
 </div>

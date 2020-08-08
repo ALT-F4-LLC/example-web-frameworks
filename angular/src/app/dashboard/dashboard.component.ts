@@ -1,18 +1,22 @@
-import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs';
+import { UserService } from '../user.service';
 
 @Component({
   selector: 'app-dashboard',
   templateUrl: './dashboard.component.html',
   styleUrls: ['./dashboard.component.scss'],
 })
-export class DashboardComponent {
-  @Input()
-  public name: string;
+export class DashboardComponent implements OnInit {
+  public name: Observable<string>;
 
-  @Output()
-  public nameChanged = new EventEmitter<string>();
+  constructor(private userService: UserService) {}
 
-  public setName(name: string) {
-    this.nameChanged.emit(name);
+  ngOnInit(): void {
+    this.name = this.userService.getName();
+  }
+
+  setName(name: string) {
+    this.userService.setName(name);
   }
 }
