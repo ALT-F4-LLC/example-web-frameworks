@@ -1,10 +1,23 @@
 import { Component } from '@angular/core';
+import { Observable } from 'rxjs/internal/Observable';
+import { UserService } from './user.service';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
+  templateUrl: './app.component.html',
 })
 export class AppComponent {
-  title = 'Symphony - Dashboard';
+  public name: Observable<string>;
+  public title = 'Symphony';
+
+  constructor(private userService: UserService) {}
+
+  ngOnInit(): void {
+    this.name = this.userService.getName();
+  }
+
+  setName(event: string) {
+    this.userService.setName(event);
+  }
 }

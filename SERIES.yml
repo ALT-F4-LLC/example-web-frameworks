@@ -1,0 +1,33 @@
+REACT:
+  Experience:
+    - Started working w/ it 2014
+    - Had previous experience w/ Angular, but not many other JS based frameworks
+    - Promised a streamlined approach to building websites with components
+      - Didn't require the a lot of the boilerplate to create components like Angular did
+      - Included a new way to create DOM elements with JavaScript (JSX)
+      - Downside to this, JSX has a bit of a learning curve and is confusing to setup at times (requires bundler support)
+    - Worked with it professionally for about 4 years on enterprise applications
+    - Was easy to build and maintain for incredibly extended periods of time (years)
+      - Has good enough support, bug fix timelines, and releases to where most of the time you can just be focused on developing and not troubleshooting.
+      - Most of the basic principles of React have not changed - the only major changes that have affected my professional career around React where "Function Components" and "Hooks".
+  Opinions:
+    - React is fairly simple to setup and get started with "components".
+    - React JSX, though sometimes confusing, does allow for direct interaction with JS and the DOM
+    - React is very easy to compose components, re-use them, and style them if need be.
+    - React is well maintained and, from my expierence, never introduced a bug that was production impacting.
+    - React is nice to work with if you follow the KISS approach, but can become VERY convoluted if using improper absraction, etc.
+    If you want to get started with JS components, React is a VERY strong candidate for the following reasons:
+      - Not terrible to learn
+      - Has good maintainability
+      - JOB OPPORTUNITIES
+  ANGULAR:
+    Experience:
+      - Built my first enterprise level application with Angular 1.
+      - I was using $scope, but has been since removed from Angular.
+      - I was using Gulp & LESS for styling and building.
+    Opinions:
+      - Nice that Angular has built in routing, as well as, many other normally needed tooling.
+      - Though has all of these nice toolings, the opinionation around configurations, etc MAY be slightly daunting.
+      - Personal fan of decorators - so nice to have those available as well.
+      - The level of abstraction for tooling components and NgModules, etc may seem a little confusing at first without fully thinking through the design.
+      - Schematics are nice when trying to add functionality to your application (Tailwind CSS).
