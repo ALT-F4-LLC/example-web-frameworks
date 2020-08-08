@@ -31,3 +31,5 @@ REACT:
       - Personal fan of decorators - so nice to have those available as well.
       - The level of abstraction for tooling components and NgModules, etc may seem a little confusing at first without fully thinking through the design.
       - Schematics are nice when trying to add functionality to your application (Tailwind CSS).
+      - The tooling in Angular requires more steps to handling specific tasks, though have good design principles around them.
+      - The most idomatic way to use Angular w/ DOM is using templateUrls which separates the DOM from the code which I am not personally a fan of that separation.
