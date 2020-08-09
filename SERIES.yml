@@ -33,3 +33,10 @@ REACT:
       - Schematics are nice when trying to add functionality to your application (Tailwind CSS).
       - The tooling in Angular requires more steps to handling specific tasks, though have good design principles around them.
       - The most idomatic way to use Angular w/ DOM is using templateUrls which separates the DOM from the code which I am not personally a fan of that separation.
+  SVELTE:
+    Experience: None
+    Opinions:
+      - I like that Svelte promotes having all component logic in one file vs. something like Angular where its in many files.
+      - Although you can use Rollup, using something like Parcel makes the development expierence a lot easier for adding later tech to the stack.
+      - Component shorthand for passing down properties is very nice and reduces replication of code unlike React.
+      - Possibly faster being compiled rather than using virtual DOM and you ship less code to the browser.

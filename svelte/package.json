@@ -1,0 +1,20 @@
+{
+  "name": "svelte",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel ./src/index.html"
+  },
+  "devDependencies": {
+    "@tsconfig/svelte": "^1.0.8",
+    "autoprefixer": "^9.8.6",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-svelte": "^4.0.6",
+    "postcss": "^7.0.32",
+    "svelte": "^3.24.1",
+    "svelte-preprocess": "^4.0.10",
+    "tailwindcss": "^1.6.2",
+    "typescript": "^3.9.7"
+  }
+}
