@@ -33,11 +33,18 @@ REACT:
       - Not terrible to learn
       - Has good maintainability
       - JOB OPPORTUNITIES
-  SVELTE:
-    Experience: None
-    Opinions:
-      - I like that Svelte promotes having all component logic in one file vs. something like Angular where its in many files.
-      - Although you can use Rollup, using something like Parcel makes the development expierence a lot easier for adding later tech to the stack.
-      - Component shorthand for passing down properties is very nice and reduces replication of code unlike React.
-      - Possibly faster being compiled rather than using virtual DOM and you ship less code to the browser.
-      - Reactive declarations are really easy to use and provide a simple interface for changing from events.
+SVELTE:
+  Experience: None
+  Opinions:
+    - I like that Svelte promotes having all component logic in one file vs. something like Angular where its in many files.
+    - Although you can use Rollup, using something like Parcel makes the development expierence a lot easier for adding later tech to the stack.
+    - Component shorthand for passing down properties is very nice and reduces replication of code unlike React.
+    - Possibly faster being compiled rather than using virtual DOM and you ship less code to the browser.
+    - Reactive declarations are really easy to use and provide a simple interface for changing from events.
+VUE:
+  Experience: None
+  Opinions:
+    - When you're new, the documentation is slightly unorganized and a little confusing to navigate to get to what you want quickly.
+    - Vue has some very nice tooling around attributes and ease of modifying them (preventDefault -> v-on:submit.prevent, etc)
+    - The state management library recommended to use with Vue (vuex) has very simple and easy to use interfaces for setting up state stores/management.
+    - Overall, seems like something nice to have in your toolbelt but does provide more of a personal preference difference rather than technical ones.
