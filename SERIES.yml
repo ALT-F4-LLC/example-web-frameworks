@@ -1,4 +1,4 @@
-JAVASCRIPT FRAMEWORKS:
+CLIENT-SIDE:
   ANGULAR:
     Experience:
       - Built my first enterprise level application with Angular 1.
@@ -53,3 +53,11 @@ JAVASCRIPT FRAMEWORKS:
       - Vue has some very nice tooling around attributes and ease of modifying them (preventDefault -> v-on:submit.prevent, etc)
       - The state management library recommended to use with Vue (vuex) has very simple and easy to use interfaces for setting up state stores/management.
       - Overall, seems like something nice to have in your toolbelt but does provide more of a personal preference difference rather than technical ones.
+  SERVER-SIDE:
+    PHOENIX:
+      Experience: None
+      Opinions:
+        - Phoenix provides a bunch of sub modules that help with tooling a web service like ORM (ecto), etc.
+        - Because it's Elixir - the ability to manage my modules in processes and distribute them naturally is nice.
+        - LiveView provides a nearly identical expierence to a normal SPA but the benefits of server side processing.
+        - It's not JavaScript.

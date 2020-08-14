@@ -1,0 +1,12 @@
+<div class="grid h-screen" id="main">
+  <div class="bg-black grid grid-cols-7 p-2">
+    <h1 class="col-start-7 text-xl text-white text-center">Hello <%= @name %></h1>
+  </div>
+
+  <div class="flex items-center justify-center text-blue-200">
+    <div class="grid">
+      <h1 class="text-lg pb-2">Welcome <%= @name %> to the dashboard!</h1>
+      <button phx-click="set_name" phx-value-name="Chat">Change Name</button>
+    </div>
+  </div>
+</div>
