@@ -54,6 +54,12 @@ CLIENT-SIDE:
       - The state management library recommended to use with Vue (vuex) has very simple and easy to use interfaces for setting up state stores/management.
       - Overall, seems like something nice to have in your toolbelt but does provide more of a personal preference difference rather than technical ones.
   SERVER-SIDE:
+    BLAZOR:
+      Experience: None
+      Opinions:
+    NEST:
+      Experience: None
+      Opinions:
     PHOENIX:
       Experience: None
       Opinions:
