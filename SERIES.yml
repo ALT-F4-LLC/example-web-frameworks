@@ -58,6 +58,7 @@ CLIENT-SIDE:
       Experience: None
       Opinions:
         - Phoenix provides a bunch of sub modules that help with tooling a web service like ORM (ecto), etc.
-        - Because it's Elixir - the ability to manage my modules in processes and distribute them naturally is nice.
+        - Because it's Elixir - the ability to manage modules in processes and distribute them naturally is nice.
         - LiveView provides a nearly identical expierence to a normal SPA but the benefits of server side processing.
+        - Not sure how I feel about using Webpack with JS modules to connect the frontend to LiveView - but it's an interesting approach.
         - It's not JavaScript.
